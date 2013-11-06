@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Form Maket</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<div class="form">
+				<form action="">
+					<div class="row">
+						<label class="label">Тип недвижимости</label>
+						<div class="select">
+							<select>
+								<option value="#">Квартира</option>
+								<option value="#">Дом</option>
+								<option value="#">Гостинка</option>
+								<option value="#">Комната</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="row">
+						<label class="label">Район</label>
+						<div class="select">
+							<select>
+								<option value="#">ХТЗ</option>
+								<option value="#">Центр</option>
+								<option value="#">Алексеевка</option>
+								<option value="#">Павлово Поле</option>
+								<option value="#">Салтовка</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="row">
+						<input type="checkbox" id="check1" hidden/>
+						<label class="label" for="check1">Новый дом</label><br>
+					</div>
+
+					<div class="row">
+						<input type="checkbox" id="check2" hidden/>
+						<label class="label" for="check2">Возле метро</label><br>
+					</div>
+
+					<label class="label_sub-title">Вид недвижимости</label>
+
+					<div class="row">
+						<input type="radio" name="realty" id="radio1" hidden/>
+						<label class="label" for="radio1">Первичная</label><br>
+					</div>
+
+					<div class="row">
+						<input type="radio" name="realty" id="radio2" hidden/>
+						<label class="label" for="radio2">Вторичная</label><br>
+					</div>
+
+					<div class="row row_btn">
+						<input  class="btn" type="submit" Value="Поиск">
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
