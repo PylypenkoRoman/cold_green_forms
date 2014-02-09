@@ -27,7 +27,7 @@ body{
 	font-size: 14px;
 	padding: 7px 17px;
 	border-radius: 15px;
-	border: 0;
+	border: none;
 }
 .select{
 	position: relative;
